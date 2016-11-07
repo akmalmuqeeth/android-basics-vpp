@@ -1,5 +1,6 @@
 package com.example.akmalmuqeeth.myquiz;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -84,6 +85,17 @@ public class QuestionActivity extends AppCompatActivity {
     }
 
     public void nextQuestion(View view){
+
+        if(questions.getQuestion(currentId).isLastQuestion()){
+            Intent scoreActivityIntent = new Intent(this, ScoreActivity.class);
+            //send data to another activity
+            scoreActivityIntent.putExtra("quizScore", questions.calculateScore());
+            startActivity(scoreActivityIntent);
+            //hitting the back button from the score will take the user back to splash screen
+            finish();
+            return;
+        }
+
 
         currentId++;
         if(currentId == questions.size()) {

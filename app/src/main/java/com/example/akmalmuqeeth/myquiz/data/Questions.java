@@ -39,5 +39,15 @@ public class Questions {
         return questions.size();
     }
 
+    public int calculateScore(){
+        int score = 0;
+        for (Question q : questions) {
+            if(q.getUsersGuess() == q.getCorrectAnswer()){
+                score++;
+            }
+        }
+        return score;
+    }
+
 
 }
