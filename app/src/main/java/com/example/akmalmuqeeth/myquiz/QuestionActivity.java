@@ -89,7 +89,7 @@ public class QuestionActivity extends AppCompatActivity {
         if(questions.getQuestion(currentId).isLastQuestion()){
             Intent scoreActivityIntent = new Intent(this, ScoreActivity.class);
             //send data to another activity
-            scoreActivityIntent.putExtra("quizScore", questions.calculateScore());
+            scoreActivityIntent.putExtra("score", questions.calculateScore());
             startActivity(scoreActivityIntent);
             //hitting the back button from the score will take the user back to splash screen
             finish();
