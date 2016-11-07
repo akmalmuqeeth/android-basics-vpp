@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyQuiz</string>
+    <string name="welcome_message">Welcome to the My Quiz App, brought to you by</string>
+    <string name="developer_link"><a href="https://www.virtualpairprogrammers.com">Virtual Pair Programmers</a></string>
+    <string name="start_button">Start</string>
+    <string name="next_button">Next</string>
+    <string name="back_button">Back</string>
+</resources>

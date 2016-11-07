@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.0_35c9ca84872d70746fb70df4abe2c48ee600a475/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_0a0435f061844598ce3d6a341e26716c51f91202/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.0_78b2f4e59fb4d89093755875190495022cda3252/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.0_0dd2e613bb6ee390b5e93c58437ca87937bdd32d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.0_92b4ee2c7c1f6e11a19eaf162c3a36d1a175eb2f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8295e98e0e3ec976f4dfe01799018a4ee5560e11">
+        <dex dex="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_0ef2a4f0af3908143b07a379f71fc25bacdd0d77/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_48a4e15badd7f41bc7b4968d3cba4687776deb89/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_c8d36c181bfb20687a518b8c68fa80d5998260b8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.0_10144b51d6826cec94f132f3ab5c050414e1accd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.0_4d734192fa23928adad78a11699896cd45e1e576/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.0_a0faac98425ba4377f4ec9b57e19e3dc34f2dd8e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.0_48a38dc5dc729a10eef3950492a884e43d608a35/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_ab3ccf7571407937c5c1c08a1c4c48fe1a68daac/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/akmal.muqeeth/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_18fdd18b298028b1d2ae3ea5547be75943fdda27/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_e5abd515c91a82fbd47a6fa075e7568c9b20c9b8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f29797ee84f373716018ee698fb5b939488b39a1">
+        <dex dex="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_23b1dc466c7f7394d4545d78652573695cc9f6c1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/akmal.muqeeth/Documents/learn_ws/android/MyQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.0_a8258037643d289d7a9f99aed4fddb18203b05db/classes.dex" />
+    </item>
+
+</items>
