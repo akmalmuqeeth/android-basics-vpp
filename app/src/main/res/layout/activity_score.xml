@@ -24,6 +24,7 @@
         android:text="@string/share_button"
         android:id="@+id/share"
         android:layout_centerVertical="true"
+        android:onClick="share"
         android:layout_centerHorizontal="true" />
 
     <Button
@@ -33,5 +34,7 @@
         android:id="@+id/restart"
         android:layout_below="@+id/share"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="36dp" />
+        android:layout_marginTop="36dp"
+        android:onClick="startAgain"
+        />
 </RelativeLayout>
