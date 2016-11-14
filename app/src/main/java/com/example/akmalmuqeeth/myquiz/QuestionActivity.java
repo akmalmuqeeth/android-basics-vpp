@@ -12,10 +12,37 @@ import android.widget.TextView;
 import com.example.akmalmuqeeth.myquiz.data.Question;
 import com.example.akmalmuqeeth.myquiz.data.Questions;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class QuestionActivity extends AppCompatActivity {
 
     private Questions questions;
     private int currentId;
+
+
+    @Override
+    public void onSaveInstanceState(Bundle savedInstanceState){
+        savedInstanceState.putInt("currentId", currentId);
+        HashMap<Integer, Integer> savedAnswers = new HashMap<Integer,Integer>();
+        for(int i =0; i < questions.size(); i++){
+            Integer answer = questions.getQuestion(i).getUsersGuess();
+            savedAnswers.put(i, answer);
+        }
+        savedInstanceState.putSerializable("savedAnswers", savedAnswers);
+    }
+
+    @Override
+    public void onRestoreInstanceState(Bundle savedInstanceState){
+        currentId = savedInstanceState.getInt("currentId");
+
+        Map<Integer,Integer> savedAnswers = (Map<Integer,Integer>) savedInstanceState.getSerializable("savedAnswers");
+        for (int id: savedAnswers.keySet()){
+            Integer answer = savedAnswers.get(id);
+            questions.getQuestion(id).setUsersGuess(answer);
+        }
+        showQuestion();
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
