@@ -33,15 +33,18 @@ public class QuestionActivity extends AppCompatActivity {
             Integer answer = questions.getQuestion(i).getUsersGuess();
             savedAnswers.put(i, answer);
         }
+
+        Date stop = new Date();
+        accumulatedSeconds += (stop.getTime() - startOfCurrentSession.getTime()) / 1000;
+
         savedInstanceState.putSerializable("savedAnswers", savedAnswers);
-        savedInstanceState.putSerializable("startOfCurrentSession", startOfCurrentSession);
+        savedInstanceState.putLong("accumulatedSeconds", accumulatedSeconds);
     }
 
     @Override
     public void onStop(){
         super.onStop();
-        Date stop = new Date();
-        accumulatedSeconds += (stop.getTime() - startOfCurrentSession.getTime()) / 1000;
+
 
     }
 
@@ -61,7 +64,7 @@ public class QuestionActivity extends AppCompatActivity {
             Integer answer = savedAnswers.get(id);
             questions.getQuestion(id).setUsersGuess(answer);
         }
-        startOfCurrentSession = (Date) savedInstanceState.getSerializable("startOfCurrentSession");
+        accumulatedSeconds = savedInstanceState.getLong("accumulatedSeconds");
         showQuestion();
     }
 
