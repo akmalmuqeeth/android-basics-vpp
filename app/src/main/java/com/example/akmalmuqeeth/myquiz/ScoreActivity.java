@@ -25,8 +25,9 @@ public class ScoreActivity extends AppCompatActivity {
 
         Resources res = getResources();
         String[] strings = res.getStringArray(R.array.feedback_array);
+        Long seconds = intent.getExtras().getLong("seconds");
 
-        scoreView.setText(strings[score]);
+        scoreView.setText(strings[score] + ". You took " + seconds + " seconds.");
     }
 
     public void startAgain(View view){

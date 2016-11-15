@@ -12,6 +12,7 @@ import android.widget.TextView;
 import com.example.akmalmuqeeth.myquiz.data.Question;
 import com.example.akmalmuqeeth.myquiz.data.Questions;
 
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -19,6 +20,9 @@ public class QuestionActivity extends AppCompatActivity {
 
     private Questions questions;
     private int currentId;
+
+    private Date startOfCurrentSession;
+    private Long accumulatedSeconds;
 
 
     @Override
@@ -30,6 +34,22 @@ public class QuestionActivity extends AppCompatActivity {
             savedAnswers.put(i, answer);
         }
         savedInstanceState.putSerializable("savedAnswers", savedAnswers);
+        savedInstanceState.putSerializable("startOfCurrentSession", startOfCurrentSession);
+    }
+
+    @Override
+    public void onStop(){
+        super.onStop();
+        Date stop = new Date();
+        accumulatedSeconds += (stop.getTime() - startOfCurrentSession.getTime()) / 1000;
+
+    }
+
+    @Override
+    public void onRestart(){
+        super.onRestart();
+        startOfCurrentSession = new Date();
+
     }
 
     @Override
@@ -41,6 +61,7 @@ public class QuestionActivity extends AppCompatActivity {
             Integer answer = savedAnswers.get(id);
             questions.getQuestion(id).setUsersGuess(answer);
         }
+        startOfCurrentSession = (Date) savedInstanceState.getSerializable("startOfCurrentSession");
         showQuestion();
     }
 
@@ -51,6 +72,9 @@ public class QuestionActivity extends AppCompatActivity {
 
         questions = new Questions();
         currentId = 0;
+
+        startOfCurrentSession = new Date();
+        accumulatedSeconds = 0L;
 
         showQuestion();
     }
@@ -114,9 +138,16 @@ public class QuestionActivity extends AppCompatActivity {
     public void nextQuestion(View view){
 
         if(questions.getQuestion(currentId).isLastQuestion()){
+
+            Date stop = new Date();
+            Long seconds = (stop.getTime() - startOfCurrentSession.getTime()) / 1000;
+            seconds += accumulatedSeconds;
+
+
             Intent scoreActivityIntent = new Intent(this, ScoreActivity.class);
             //send data to another activity
             scoreActivityIntent.putExtra("score", questions.calculateScore());
+            scoreActivityIntent.putExtra("seconds", seconds);
             startActivity(scoreActivityIntent);
             //hitting the back button from the score will take the user back to splash screen
             finish();
